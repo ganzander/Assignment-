@@ -1,6 +1,6 @@
-P=int(input("Enter the Principle:"))
-T=int(input("Enter the Time:"))
-R=int(input("Enter the Rate:"))
+P=float(input("Enter the Principle:"))
+T=float(input("Enter the Time:"))
+R=float(input("Enter the Rate:"))
 
 SimpleInterest=P*R*T/100
 print(SimpleInterest)
